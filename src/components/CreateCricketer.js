@@ -33,7 +33,6 @@ class CreateCricketer extends Component {
       isRetired: this.state.isRetired,
       profileLink: this.state.profileLink,
     }
-    console.log(cricketer)
     if (this.state.id === '_add') {
       CricketerService.createCricketer(cricketer).then((res) => {
         this.props.history.push('/cricketers')
