@@ -58,6 +58,11 @@ class ListCricketers extends Component {
         <h2 className="text-center" style={{ marginTop: '20px' }}>
           Cricketers List
         </h2>
+        <p className="caution">
+          Note: This application may take some time to load content on page
+          because the backend part hosted in Heroku , Heroku takes time to
+          launch the spring boot application if app is idle for atleast 1 hour
+        </p>
         <button
           className="btn btn-primary"
           onClick={this.addCricketer}
