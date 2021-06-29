@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const CRICKETER_API_BASE_URL =
-  'https://cricketers-info-sp.herokuapp.com/api/v1/cricketer'
+  'https://cricketers-info-sp.herokuapp.com/api/v1/cricketers'
 
 class CricketerService {
   getCricketers() {
